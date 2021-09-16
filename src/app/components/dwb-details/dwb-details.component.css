@@ -1,0 +1,19 @@
+.card{
+    margin: 0.5rem;
+    color: white;
+}
+.dwb-icon{
+    padding: 1rem;
+}
+
+.dwb-red{
+    background-color: #ff8099;
+}
+
+.dwb-green{
+    background-color: #7ce9a2;
+}
+
+.dwb-blue{
+    background-color: #88caf6;
+}
