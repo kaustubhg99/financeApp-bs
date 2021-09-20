@@ -8,6 +8,10 @@ import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { DwbDetailsComponent } from './components/dwb-details/dwb-details.component';
+import { TransactionsComponent } from './components/transactions/transactions.component';
+import { CurrentTransactionsComponent } from './components/current-transactions/current-transactions.component';
+import { AddIncomeComponent } from './components/add-income/add-income.component';
+import { AddSpendComponent } from './components/add-spend/add-spend.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { DwbDetailsComponent } from './components/dwb-details/dwb-details.compon
     HomeComponent,
     FooterComponent,
     AboutComponent,
-    DwbDetailsComponent
+    DwbDetailsComponent,
+    TransactionsComponent,
+    CurrentTransactionsComponent,
+    AddIncomeComponent,
+    AddSpendComponent
   ],
   imports: [
     BrowserModule,

@@ -2,3 +2,22 @@
 .grey-bg {  
     background-color: #F5F7FA;
 }
+.fa-green{
+    color: #7ce9a2;
+}
+.fa-blue{
+    color: #88caf6;
+}
+.fa-red{
+    color: #ff8099;;
+}
+
+.fa-bg-green{
+    background-color: #7ce9a2;
+}
+.fa-bg-blue{
+    background-color: #88caf6;
+}
+.fa-bg-red{
+    background-color: #ff8099;;
+}

@@ -1,0 +1,17 @@
+.card-header{
+    font-size: 0.9rem;
+    background-color: #88caf6;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.card-body{
+    padding-bottom: 0;
+}
+.table{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.bank-name{
+    font-size: 0.6rem;
+}

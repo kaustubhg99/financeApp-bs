@@ -1,0 +1,85 @@
+.btn-new-txn{
+    position: fixed;
+    width: 50px;
+    height: auto;
+    right: 2rem; bottom: 2rem;
+    border-radius:  50px;
+    background-color: #47b3fa;
+    border: 0;
+}
+.btn-new-txn:focus{
+    background-color: #47b3fa;
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+
+.card {
+    border-radius: 3vh;
+    margin: auto;
+    max-width: 380px;
+    padding: 7vh 6vh;
+    align-items: center;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.btn-submit{
+    color: white;
+    border-radius: 40px;
+    margin: 0.5rem;
+    background-color: #47b3fa;
+}
+.btn-submit:focus
+{
+    color: white;
+    border-radius: 40px;
+    background-color: #1e9df1;
+}
+
+.btn-cancel{
+    color: white;
+    border-radius: 40px;
+    background-color: #ff8099;
+}
+.btn-cancel:focus{
+    color: white;
+    border-color: white;
+    border-radius: 40px;
+    background-color: #ff4b6f;
+}
+
+@media(max-width:767px) {
+    .card {
+        width: 90vw
+    }
+}
+
+.card-img {
+    padding: 20px 0;
+    width: 40%
+}
+
+.card-img img {
+    opacity: 0.7
+}
+
+.card-title {
+    margin-bottom: unset
+}
+
+.card-title p {
+    color: rgb(29, 226, 226);
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: unset
+}
+
+.card-text p {
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+    padding: 3vh 0;
+    font-weight: lighter
+}
